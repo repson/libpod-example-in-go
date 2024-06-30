@@ -1,4 +1,4 @@
-# libpod-example-in-go
+# podman-example-in-go
 
 In this repository you can see some tests made with the podman library in Go.
 
