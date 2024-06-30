@@ -29,7 +29,7 @@ func main() {
 
 	fmt.Println("Connected to Podman")
 
-	// Pull Busybox image (Sample 1)
+	// Pull Image
 	fmt.Println("Pulling Alpine Nginx image...")
 	rawImage := "quay.io/libpod/alpine_nginx"
 	_, err = images.Pull(connText, rawImage, nil)
